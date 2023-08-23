@@ -7,3 +7,5 @@ Successful registration for email: 01.alexsandr.46@gmail.com
 Successful registration for email: 01.alexsandr.46@gmail.com
 Successful registration for email: 01.alexsandr.46@gmail.com
 Successful registration for email: 01.alexsandr.46@gmail.com
+[23.08.2023 06:54:33]Error registration for email: asd
+[23.08.2023 06:54:50]Error registration for email: asd@fdf3
