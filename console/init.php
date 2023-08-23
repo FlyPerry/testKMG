@@ -1,7 +1,7 @@
 <?php
 
 // Объявляем класс
-class Init
+final class Init
 {
      private function create()
     {
@@ -49,7 +49,7 @@ class Init
         return $stmt->fetchAll(PDO::FETCH_ASSOC);
     }
 
-    public final function __construct()
+    public function __construct()
     {
         try {
             $this->create();
