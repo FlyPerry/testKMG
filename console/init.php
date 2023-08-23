@@ -3,7 +3,7 @@
 // Объявляем класс
 class Init
 {
-    private function create()
+     private function create()
     {
         $pdo = new PDO('mysql:host=localhost;dbname=mydbtest', 'root', '');
         $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
@@ -49,7 +49,7 @@ class Init
         return $stmt->fetchAll(PDO::FETCH_ASSOC);
     }
 
-    public function __construct()
+    public final function __construct()
     {
         try {
             $this->create();
